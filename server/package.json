@@ -6,12 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "client-install": "cd client && npm install",
-    "client-build": "cd client && npm run build",
-    "heroku-postbuild": "npm run client-install && npm run client-build"
+    "start": "nodemon server.js"
   },
-  "author": "",
+  "author": "Ayush Ranjan",
   "license": "ISC",
   "dependencies": {
     "mongoose": "^8.5.2",

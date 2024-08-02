@@ -5,10 +5,9 @@ import { getDocument, updateDocument } from './controller/document-controller.js
 
 const PORT = 9000;
 
-const URL = process.env.MONGODB_URI || `mongodb+srv://ayushranjanthakur:ayushranjan2024@google-docs-clone.xsjvslv.mongodb.net/Googlr-Docs-Clone`;
 
 //calling connection function from db.js
-Connection(URL);
+Connection();
 
 const io = new Server(PORT, {
     cors: {

@@ -1,6 +1,5 @@
 import Document from '../schema/documentSchema.js';
 
-
 export const getDocument = async (id) => {
     if (id === null) return;
 
